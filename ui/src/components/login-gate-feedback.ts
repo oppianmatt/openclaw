@@ -373,10 +373,7 @@ export function resolveLoginFailureFeedback(
                 key: "login.failure.authRequired.stepPaste",
                 commands: ["openclaw gateway auth-token --show"],
               },
-              {
-                key: "login.failure.authRequired.stepGenerate",
-                commands: ["openclaw doctor --generate-gateway-token"],
-              },
+              "login.failure.authRequired.stepGenerate",
               "login.failure.authRequired.stepConnect",
             ]
           : [
